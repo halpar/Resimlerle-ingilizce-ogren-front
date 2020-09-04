@@ -1,6 +1,22 @@
 # english_kidz
 
-A new Flutter project.
+- Bu proje Sakarya Üniversitesi Bilgisayar Mühendisliği Bölümü'nün Bitirme Projesidir.
+- Mobil uygulamanın front end kısmıdır.
+
+
+
+
+
+
+
+
+
+
+
+Katkıda bulunanlar , 
+
+Ali Özen 
+Alper Sarper
 
 ## Getting Started
 
