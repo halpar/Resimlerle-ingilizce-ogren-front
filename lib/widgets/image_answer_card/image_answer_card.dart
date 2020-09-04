@@ -17,7 +17,7 @@ class _ImageAnswerCardState extends State<ImageAnswerCard> {
       decoration: const BoxDecoration(
         image: DecorationImage(
             image: NetworkImage(
-                'https://media-exp1.licdn.com/dms/image/C4D03AQHFZR4LkCj31w/profile-displayphoto-shrink_200_200/0?e=1603324800&v=beta&t=0amJElTfruhb6aQE6x6lwq3wmNuOsmiIVZuu-LTVlVw'),
+                'https://images.pexels.com/photos/2363356/pexels-photo-2363356.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'),
             fit: BoxFit.cover),
       ),
       alignment: Alignment.bottomCenter,
@@ -32,7 +32,7 @@ class _ImageAnswerCardState extends State<ImageAnswerCard> {
                 color: Colors.white10,
                 border: Border.all(color: Colors.white, width: 2.0)),
             child: Text(
-              'ALPERRRRR',
+              'Peach',
               style: TextStyle(
                 fontWeight: FontWeight.w900,
                 fontSize: 54.0,
@@ -43,8 +43,11 @@ class _ImageAnswerCardState extends State<ImageAnswerCard> {
           Container(
             padding: EdgeInsets.only(top: 10),
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
+                Spacer(
+                  flex: 4,
+                ),
                 SigninButton(
                   child: Icon(Icons.check),
                   width: MediaQuery.of(context).size.width * 0.12,
@@ -55,6 +58,9 @@ class _ImageAnswerCardState extends State<ImageAnswerCard> {
                     );
                   },
                 ),
+                Spacer(
+                  flex: 1,
+                ),
                 SigninButton(
                   child: Icon(Icons.close),
                   width: MediaQuery.of(context).size.width * 0.12,
@@ -64,6 +70,9 @@ class _ImageAnswerCardState extends State<ImageAnswerCard> {
                       MaterialPageRoute(builder: (context) => LoginPage()),
                     );
                   },
+                ),
+                Spacer(
+                  flex: 4,
                 ),
               ],
             ),

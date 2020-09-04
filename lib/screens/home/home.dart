@@ -182,7 +182,7 @@ class _HomePageState extends State<HomePage> {
                                                           Radius.circular(10.0),
                                                     ),
                                                     child: Image.network(
-                                                      'https://images.pexels.com/photos/2917442/pexels-photo-2917442.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
+                                                      'https://images.pexels.com/photos/220911/pexels-photo-220911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
                                                       width:
                                                           MediaQuery.of(context)
                                                               .size
@@ -192,7 +192,7 @@ class _HomePageState extends State<HomePage> {
                                                                   .size
                                                                   .height *
                                                               0.20,
-                                                      fit: BoxFit.fill,
+                                                      fit: BoxFit.cover,
                                                     ),
                                                   ),
                                                   Expanded(
@@ -227,7 +227,7 @@ class _HomePageState extends State<HomePage> {
                                                                   .center,
                                                           children: <Widget>[
                                                             Text(
-                                                              'Eşyalar',
+                                                              'Meyveler',
                                                               style: TextStyle(
                                                                 color: Colors
                                                                     .black54,
