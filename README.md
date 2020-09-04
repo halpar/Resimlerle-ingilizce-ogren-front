@@ -9,6 +9,38 @@ Uygulama kodlarını incelemek için lib dizinine ilerleyin.
 
 
 
+# Bazı uygulama içi görseller
+   
+ - Login Ekranı
+   
+ ![ScreenShot](https://github.com/halpar/Resimlerle-ingilizce-ogren-front/blob/master/assets/bitirme-front-foto/login.png)
+ 
+ - Seçim Ekranı
+ 
+ ![ScreenShot](https://github.com/halpar/Resimlerle-ingilizce-ogren-front/blob/master/assets/bitirme-front-foto/select.png)
+ 
+ - Ana Sayfa
+ 
+ ![ScreenShot](https://github.com/halpar/Resimlerle-ingilizce-ogren-front/blob/master/assets/bitirme-front-foto/home.png)
+ 
+ - Hamburger Menu , Drawer
+ 
+ ![ScreenShot](https://github.com/halpar/Resimlerle-ingilizce-ogren-front/blob/master/assets/bitirme-front-foto/drawer.png)
+ 
+ - Kart detayları , ön yüzü
+ 
+ ![ScreenShot](https://github.com/halpar/Resimlerle-ingilizce-ogren-front/blob/master/assets/bitirme-front-foto/card_details.png)
+ 
+ - Kart detayları , arka yüzü
+ 
+  ![ScreenShot](https://github.com/halpar/Resimlerle-ingilizce-ogren-front/blob/master/assets/bitirme-front-foto/card_details_back.png)
+
+
+
+
+
+
+
 
 Katkıda bulunanlar , 
 
