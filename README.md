@@ -5,10 +5,7 @@
 
 
 
-
-
-
-
+Uygulama kodlarını incelemek için lib dizinine ilerleyin. 
 
 
 
