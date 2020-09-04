@@ -1,0 +1,19 @@
+import 'package:flutter/material.dart';
+
+class ImageCard extends StatefulWidget {
+  @override
+  _ImageCardState createState() => _ImageCardState();
+}
+
+class _ImageCardState extends State<ImageCard> {
+  @override
+  Widget build(BuildContext context) {
+    return new Container(
+        child: Image.network(
+      'https://images.pexels.com/photos/2917442/pexels-photo-2917442.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
+      width: MediaQuery.of(context).size.width,
+      height: MediaQuery.of(context).size.height * 0.60,
+      fit: BoxFit.cover,
+    ));
+  }
+}
